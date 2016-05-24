@@ -1,0 +1,6 @@
+cloud:
+    azure:
+        storage:
+            my_account:
+                account: ACCOUNTREPLACEME
+                key: KEYREPLACEME
