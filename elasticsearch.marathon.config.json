@@ -10,7 +10,7 @@
   "cpus": 0.2,
   "mem": 512.0,
   "env": {
-    "JAVA_OPTS": "-Xms128m -Xmx256m"
+    "JAVA_OPTS": "-Xms5g -Xmx5g -XX:-UseParNewGC -XX:-UseConcMarkSweepGC -XX:+UseG1GC -XX:+UseStringDeduplication"
   },
   "instances": 1
 }
