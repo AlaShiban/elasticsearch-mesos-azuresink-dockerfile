@@ -1,3 +1,14 @@
+threadpool.bulk.queue_size: 200
+bootstrap.mlockall: true
+cluster.routing.allocation.node_concurrent_recoveries: 8
+cluster.routing.allocation.node_initial_primaries_recoveries: 18
+cluster.routing.allocation.cluster_concurrent_rebalance: 6
+indices.recovery.concurrent_streams: 6
+indices.recovery.max_bytes_per_sec: 40mb
+index.merge.scheduler.max_thread_count: 1
+indices.fielddata.cache.size: 20%
+index.translog.flush_threshold_size: 1024mb
+action.auto_create_index: false
 cloud:
     azure:
         storage:
